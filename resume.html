@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #0F0F0F;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+</style>
+
+	<!-- Basic -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Yash Chauhan</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<!-- Load Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic' rel='stylesheet'>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/glitche-basic.css" />
+	<link rel="stylesheet" href="css/glitche-layout.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+	
+</head>
+
+<body>	
+	
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="pre-inner">
+					<div class="load typing-load"><p>Hey Champ! Wait for a while...</p></div>
+					<span class="typed-load"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Container -->
+	<div class="container">
+		
+		<!-- Header -->
+		<header>
+			<div class="head-top">
+				<a href="#" class="menu-btn"><span></span></a>
+				<div class="top-menu">
+					<ul>
+						<li><a href="index.html" class="lnk">Home</a></li>
+						<li><a href="resume.html" class="lnk">Resume</a></li>
+						<li><a href="portfolio.html" class="lnk">Portfolio</a></li>
+						<li><a href="https://iyashjayesh.github.io/CV/" class="lnk">CV</a></li>
+						<li><a href="blog.html" class="lnk">Blog</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		<!-- Wrapper -->
+		<div class="wrapper">
+		
+			<!-- Started -->
+			<div class="section started">
+				<div class="centrize full-width">
+					<div class="vertical-center">
+						<div class="started-content">
+							<div class="h-title glitch-effect" data-text="Resume">Resume</div>
+							<div class="h-subtitle typing-bread">
+								<p><a href="index.html">Home</a> / <a href="resume.html">Resume</a></p>
+							</div>
+							<span class="typed-bread"></span>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
+			</div>
+			
+			<!-- About -->
+			<div class="section about">
+				<div class="content">
+					<div class="title">
+						<div class="title_inner"><h1>About Me</h1></div>
+					</div>
+					<div class="image">
+						<img src="images/0.png" alt="" />
+					</div>
+					<div class="desc">
+						<p>
+							Yash is a 19-year-old Open Source enthusiast who writes code out of the profession and loves to engage in developer communities out of passion. He is a senior year student pursing Computer Science in Parul Institute of Engineering and Technology, Parul University. He is very fascinated with technology and he also represented his university for more than 31 times at National/ International hackathons, summits and conferences. His research Interset is in Machine Learning, Deep Learning, Artificial Intelligence, Virtual reality, Computer Vision, Augmented Reality, Gestural Interaction, Automation, Natural Language Processing. While he has a comprehensive developer background working with AI, his emphasis is on scalability and innovation. “I’ll never stop striving for what I’ve always wanted. Though at some instances it became difficult to outperform students from IITs, I didn’t give up and I never will” said by Yash.
+						</p>
+						<div class="info-list">
+							<ul>
+								<li><strong>Name:</strong> Yash Chauhan</li>
+								<li><strong>Age:</strong> 19 Years</li>
+								<li><strong>Job:</strong> Upcoming Software Engineer</li>
+								<li><strong>Citizenship:</strong>Indian</li>
+								<li><strong>Residence: </strong> Vadodara, Gujarat</li>
+								<li><strong>E-mail:</strong>er.yashjayeshchauhan@gmail.com</li>
+							</ul>
+						</div>
+						<div class="bts"><a href="https://linkedin.com/in/iyashjayesh" class="btn fill" data-text="Portfolio">Portfolio</a></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			
+			<!-- Resume -->
+			<div class="section resume">
+				<div class="content">
+					<div class="cols">
+						<div class="col col-md">
+							<div class="title">
+								<div class="title_inner"><h1>Experience</h1></div>
+							</div>
+							<div class="resume-items">
+								<div class="resume-item">
+									<div class="date">Aug, 2019 – Nov, 2019</div>
+									<div class="name">Software Engineering Intern 
+										<br>INOVATIOS TECHNOLOGY, Bangalore</div>
+									<p>
+ Designed and developed an app that scans with the business card of any
+company and shows it in an augmented reality Interface.<br>
+ Worked on an Android application.<br>
+ Actively contributed in daily stand-ups and actively took initiative to
+summarize the minute of the meetings.
+									</p>
+								</div>
+								<div class="resume-item">
+									<div class="date">Feb, 2019 – May, 2019</div>
+									<div class="name">System Management Intern <br> VR Zone, Vadodara</div>
+									<p> ○ Lead a game center with four systems which were integrated with full Virtual Reality setup with an average foot fall of 120+ people per day.
+									</p>
+								</div>
+								<div class="resume-item">
+									<div class="date">June, 2019 – Aug, 2019</div>
+									<div class="name">Student Partner Internship <br>Inventrom Private Limited (Bolt IoT) </div>
+									<p>
+○ The tasks I did were related to popularising the concepts of Internet of Things(IoT) and Machine Learning(ML),brand awareness and business development of the Bolt IoT and ML online video training for two months.
+									</p>
+								</div>
+								<div class="resume-item">
+									<div class="date">Nov, 2019 – July, 2020</div>
+									<div class="name">Undergraduate Researcher <br>
+PARUL UNIVERSITY, Vadodara</div>
+									<p> 
+○ Trained and mentored 650+ computer science students through seminars and hands-on workshops. <br>
+○ Published a research paper on Machine Learning.	
+									</p>
+								</div>
+								<div class="resume-item">
+									<div class="date">Jan, 2019 – Ongoing</div>
+									<div class="name">FREE LANCING</div>
+									<p>  Worked to develop static and dynamic websites, games and mobile applications for clients across the globe.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col col-md">
+							<div class="title">
+								<div class="title_inner"><h1>Education</h1></div>
+							</div>
+							<div class="resume-items">
+								<div class="resume-item">
+									<div class="date">2007 - 2013</div>
+									<div class="name">Rungta Vidya Bhavan, Bharuch</div>
+									<p>
+								
+									</p>
+								</div>
+								<div class="resume-item">
+									<div class="date">2013 - 2018</div>
+									<div class="name">Holy Angels' Convent Schoool, Bharuch <br> Stream: Science </div>
+									<p>
+										
+									</p>
+								</div>
+								<div class="resume-item">
+									<div class="date">2018 - 2022</div>
+									<div class="name">Parul University, Vadodara<br> Computer Science Engineering</div>
+									<p>
+										
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Skills -->
+			<div class="section skills">
+				<div class="content">
+					<div class="title">
+						<div class="title_inner"><h1>My Skills</h1></div>
+					</div>
+					<div class="skills">
+						<ul>
+							<li> 
+								<div class="name">WordPress</div>
+								<div class="progress">
+									<div class="percentage" style="width:70%;">
+										<span class="percent">70%</span>
+									</div>
+								</div>
+							</li>
+							<li> 
+								<div class="name">HTML & CSS</div>
+								<div class="progress">
+									<div class="percentage" style="width:90%;">
+										<span class="percent">90%</span>
+									</div>
+								</div>
+							</li>
+							<li> 
+								<div class="name">jQuery</div>
+								<div class="progress">
+									<div class="percentage" style="width:75%;">
+										<span class="percent">75%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="name">Photoshop</div>
+								<div class="progress">
+									<div class="percentage" style="width:80%;">
+										<span class="percent">80%</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Service -->
+			<div class="section service">
+				<div class="content">
+					<div class="title">
+						<div class="title_inner"><h1>My Services</h1></div>
+					</div>
+					<div class="service-items">
+						<div class="service-item">
+							<div class="icon"><span class="ion ion-social-html5"></span></div>
+							<div class="name">Front-end</div>
+							<p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+						</div>
+						<div class="service-item">
+							<div class="icon"><span class="ion ion-ipad"></span></div>
+							<div class="name">Mobile Application</div>
+							<p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+						</div>
+						<div class="service-item">
+							<div class="icon"><span class="ion ion-ios-search-strong"></span></div>
+							<div class="name">Investigation</div>
+							<p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+						</div>
+						<div class="service-item">
+							<div class="icon"><span class="ion ion-code"></span></div>
+							<div class="name">Programming</div>
+							<p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+						</div>
+						<div class="service-item">
+							<div class="icon"><span class="ion ion-help-buoy"></span></div>
+							<div class="name">Awesome Supports</div>
+							<p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+						</div>
+						<div class="service-item">
+							<div class="icon"><span class="ion ion-social-chrome"></span></div>
+							<div class="name">Web Development</div>
+							<p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!---Testimonial-->
+<div class="Testimonial service">
+				<div class="content">
+					<div class="title">
+						<div class="title_inner"><h1 style="text-align:center;">Testimonial</h1></div>
+					</div>
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <h4><q>Yash is a smart working individual who is a tech geek. He never leaves a stone unturned and never leaves a door without knocking for an opportunity which I really appreciate. I wish him the best for his future endeavours 💯</q></h4>
+  <h1 class="author">-Anubha Maneshwar</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Yash is astounding at his particular employment! He feels comfortable around individuals, he is acceptable with the requirements stated to him, takes the necessary steps to support associates and completes things. He ensures that everybody is in the same spot and concentrated on the primary objective. The joint effort was smooth and his help certainly had a colossal effect on our projects. Yash has exponential development regarding learning new.</q></h4>
+  <h1 class="author">-Yash Vaishnav</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Yash is very responsive and has a genuine desire to assist others, his programming skills are prominent from his achievements. Yash is an inspiration to many on his campus because of his passion to strive for the best. He has helped students in his campus and outside tremendously and has an overall great attitude towards helping others in need. If you need something done fast and correct, Yash is the one for you as he is a hackathon master winning over 25 of them. I interacted with Yash on my visit to the Parul University and have been connected since then. I highly recommend Yash, and if you ever get a chance to work with him you will know what I mean. </q></h4>
+  <h1 class="author">-Ali Mustufa Shaikh</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Yash is very Enthusiastic and hard working person. he takes a lot of interest in working on new projects and learning new things. not just that he takes intrest in helping others as well whenever he gets a chance to do so. keep it up Yash</q></h4>
+  <h1 class="author">-Khagendra Kumar</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Genuine expert" is the phrase that comes to mind when I think about Yash. I was always in awe of Yash’s ability to command a room and get people on board with ideas – even people who were initially on completely different pages. I had the utmost pleasure of working with Yash indirectly as MSPs for Microsoft, and collaborating on several project teams. As a team member or a leader, Yash earns my highest recommendation.</q></h4>
+  <h1 class="author">-Adhiraj Bhagawati</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Yash is a student of B-tech Computer Science. I saw him very enthusiastic about developing himself by taking participation in various circular activities within a short span of period. He has achieved a lot. He is the only student of our university who is appointed as a Microsoft Student Partner, Unity Student Ambassador, GirlScript Foundation Chapter Leader by his second semester. He has done a magnificent job in developing community by organizing various workshops on different technologies and Hackathons and also he has won many Hackathons as an Individual as well as a team leader by his first year. He has also attended many summits organized by many techno-giants. I firmly believe that at the end of his B-tech he will also achieve lots of more. My best wishes are always with him and wish him all the success in his career as well as in his life.</q></h4>
+  <h1 class="author">-Ankit Chouhan</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>I have the pleasure to teach/guide the students like you. your ability to handle multiple projects is really very great at this small age. Among my students i give you a highest recommendation.</q></h4>
+  <h1 class="author">-Brijesh Vala</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Yash chauhan have a many potential,his passion towards the technology is vigorous.He is always ready to accept the challenges.He is ready to learn at each and every stage.I have witnessed Yash Chauhan is conquering challenge after challenge and welcoming each experience as a chance to grow and learn. It is very clear to me Yash will give his best.So I firmly recommend Yash Chauhan without any doubt. </q></h4>
+  <h1 class="author">-Jayesh Chauhan</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Congratulations yash !! I must say your sincerity and enthusiasm seen in your work !! The way you working and involving your self in to the task that is tremendous!!! All the very best for your future !!!</q></h4>
+  <h1 class="author">-Jay Majmudar</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>Yash is very enthusiastic boy, He has shown his interest and perseverance to lean new technology and latest trends. He has never quiting attitude with great politeness. He is keen to place him self on Toss to get out his best via participation in local to national level competitions and he had succeeded in many too. Keep doing this. I wish him all the best for his future projects.</q></h4>
+  <h1 class="author">-Harshal Shah</h1>
+</div>
+
+<div class="mySlides">
+  <h4><q>I rarely come across real talents who stand out like Yash. We are building some cool Augmented/Virtual Reality Apps, collaborating on several products together. Yash's quick response & understanding of requirements is outstanding, the ability to handle multiple products is unlike any I’ve seen before and made a dramatic increase in the productivity level of our company. As a core-team member, Yash earns my highest recommendation & I wish him all the best for his future endeavors.</q></h4>
+  <h1 class="author">-Vishal Aditya, CEO Inovatios Technology - Bengaluru</h1>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+</div>
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span> 
+  <span class="dot" onclick="currentSlide(10)"></span> 
+  <span class="dot" onclick="currentSlide(11)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<br>
+<br>
+
+
+			<!-- Clients -->
+			<div class="section clients">
+				<div class="content">
+					<div class="title">
+						<div class="title_inner"><h1>Work</h1></div>
+					</div>
+					<div class="box-items">
+						<div class="box-item">
+							<div class="image">
+								<a target="_blank" href="https://www.google.com">
+									<img src="images/clients/client_1.png" alt="" />
+									<span class="info">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="ion ion-link"></span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="box-item">
+							<div class="image">
+								<a target="_blank" href="https://www.google.com">
+									<img src="images/clients/client_2.png" alt="" />
+									<span class="info">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="ion ion-link"></span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="box-item">
+							<div class="image">
+								<a target="_blank" href="https://www.google.com">
+									<img src="images/clients/client_3.png" alt="" />
+									<span class="info">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="ion ion-link"></span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="box-item">
+							<div class="image">
+								<a target="_blank" href="https://www.google.com">
+									<img src="images/clients/client_1.png" alt="" />
+									<span class="info">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="ion ion-link"></span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="box-item">
+							<div class="image">
+								<a target="_blank" href="https://www.google.com">
+									<img src="images/clients/client_2.png" alt="" />
+									<span class="info">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="ion ion-link"></span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="box-item">
+							<div class="image">
+								<a target="_blank" href="https://www.google.com">
+									<img src="images/clients/client_3.png" alt="" />
+									<span class="info">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="ion ion-link"></span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		
+		</div>
+		
+		<!-- Footer -->
+		<footer>
+			<div class="soc">
+				<a target="_blank" href="https://linkedin.com/in/iyashjayesh"><span class="ion ion-social-linkedin-outline"></span></a>
+				<a target="_blank" href="https://instagram.com/iyashjayesh"><span class="ion ion-social-instagram-outline"></span></a>
+				<a target="_blank" href="https://twitter.com/iyashjayesh"><span class="ion ion-social-twitter"></span></a>
+				<a target="_blank" href="https://github.com/iyashjayesh"><span class="ion ion-social-github"></span></a> 
+			</div>
+			<div class="copy">©2020 @iyashjayesh | Eat Sleep Code Repeat...</div>
+			<div class="clr"></div>
+		</footer>
+		
+		<!-- Lines -->
+		<div class="line top"></div>
+		<div class="line bottom"></div>
+		<div class="line left"></div>
+		<div class="line right"></div>
+		
+	</div>
+	
+	<!-- jQuery Scripts -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/masonry.pkgd.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/masonry-filter.js"></script>
+	
+	<!-- Main Scripts -->
+	<script src="js/glitche-scripts.js"></script>
+	
+</body>
+</html>
